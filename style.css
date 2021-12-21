@@ -1,5 +1,19 @@
-.block{
-    color: red ;
+header{
+    color: rgb(255, 0, 157) ;
     display: flex;
+    justify-content: space-between;
+
+}
+h1{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
     justify-content: center;
 }
+.avatar{
+    height: 300px;
+}
+;
+
+
+

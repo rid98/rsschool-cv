@@ -13,7 +13,10 @@ h1{
 .avatar{
     height: 300px;
 }
-;
+
+li {
+    list-style-type: none;
+}
 
 
 

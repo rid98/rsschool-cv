@@ -4,50 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normilize.css">
     <link rel="stylesheet" href="style.css">
     <title>Katsiaryna Rydzetskaya</title>
 </head>
 <header>
-    <img class="avatar" src="img/ava.jpg" alt="Avatar">
+    <img src="img/ava.jpg" alt="Avatar" id="ava">
     <h1>Hi! I am Katsiaryna Rydzetskaya</h1>
 </header>
 <body>
     <main>
-        <div>
-            <ul> Contacts 
-                <li> Gomel,Belarus</li>    
-                <li> Email: kolko98@yandex.by </li>
-                <li> Github: rid98 </li>
-                <li> Telegram:@rid98</li>
-            </ul>
+        <div class="block">
+            <h2>Contacts </h2>
+                <ul>  
+                    <li> Gomel,Belarus</li>    
+                    <li> Email: kolko98@yandex.by </li>
+                    <li> Github: rid98 </li>
+                    <li> Telegram:@rid98</li>
+                </ul>
         </div>
-        <div>
-            <ul> Skills
-                <li> HTML</li>
-                <li> CSS</li>
-                <li> GS</li>
-                <li> Git</li>
-            </ul>
-        </div>
-        <div>
+        <div class="block">
             <h2> About me </h2>
             <p> Hey! My name is Kate. I work as a doctor in a hospital. At the moment, I understand that I don't like my profession. I decided to try myself in programming.</p>
+        </div>    
+        <div class="block" >
+             <h2>Skills</h2>
+                <ul> 
+                    <li> HTML</li>
+                    <li> CSS</li>
+                    <li> GS</li>
+                    <li> Git</li>
+                </ul>
         </div>
-        <div> 
+        <div class="block"> 
             <h2> Example code</h2>
-            <code> @Override
+            <code>
                 const fruits = ["Банан", "Апельсин", "Яблоко", "Манго"];
                 document.getElementById("demo").innerHTML = fruits;
-            
                 function myFunction() {
                 fruits.push("Киви");
-                document.getElementById("demo").innerHTML = fruits;</code>
+                document.getElementById("demo").innerHTML = fruits;}
+            </code>
         </div>
-        <div>
-        <h2> English </h2>
-        <p> Pre-intermideate</p> 
+        <div class="block">
+            <h2> English </h2>
+            <p> Pre-intermideate</p> 
         </div>
-        <div>
+        <div class="block">
             <h2> Projects</h2>
             <ul> 
                 <li> <a href="https://github.com/rid98/rsschool-cv/pull/1"> CV#1. Markdown & Git </a> </li>

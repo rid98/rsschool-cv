@@ -1,8 +1,12 @@
+ul, h1, h2, p, code, span {
+    cursor: default;
+}
 header{
     color: #CDCDC0 ;
     display: flex;
     justify-content: space-between;
     background-color: #B38867;
+    border-bottom: 2px solid #CDCDC0;
 }
 h1{
     display: flex;
@@ -34,7 +38,7 @@ main{
     flex-wrap: wrap ;
     justify-content: space-evenly;
 }
-footer{
+.foter__navigations{
     background-color: #626D71;
     color: #CDCDC0;
     display: flex;
@@ -55,7 +59,7 @@ a:hover{
 }
 
 .block{
-    width: 40%;
+    width: 400px;
     border-bottom: 1px solid #DDBC95;
 }
 
@@ -63,3 +67,8 @@ a:hover{
     border-bottom: 0;
 }
 
+.list>li{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}

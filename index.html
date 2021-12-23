@@ -4,12 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normilize.css">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Katsiaryna Rydzetskaya</title>
 </head>
+<header>
+    <img src="img/ava.jpg" alt="Avatar" id="ava">
+    <h1>Hi! I am Katsiaryna Rydzetskaya</h1>
+</header>
 <body>
-    <div class="block">
-        <span> Hello world!</span>
-    </div>
+    <main>
+        <div class="block">
+            <h2>Contacts </h2>
+                <ul class="list">  
+                    <li><img src="img/local.png" alt="local"> Gomel,Belarus</li>    
+                    <li><img src="img/email.png" alt="email">Email: kolko98@yandex.by </li>
+                    <li><img src="img/github.png" alt="github">Github: rid98 </li>
+                    <li><img src="img/telegram.png" alt="telegram">Telegram:@rid98</li>
+                </ul>
+        </div>
+        <div class="block">
+            <h2> About me </h2>
+            <p> Hey! My name is Kate. I work as a doctor in a hospital. At the moment, I understand that I don't like my profession. I decided to try myself in programming.</p>
+        </div>    
+        <div class="block" >
+             <h2>Skills</h2>
+                <ul class="list"> 
+                    <li> <img src="img/html.png" alt="html"> HTML</li>
+                    <li> <img src="img/css.png" alt="css"> CSS</li>
+                    <li> <img src="img/js.png" alt="js">JS</li>
+                    <li> <img src="img/git.png" alt="git">Git</li>
+                </ul>
+        </div>
+        <div class="block"> 
+            <h2> Example code</h2>
+            <code>
+                const fruits = ["Банан", "Апельсин", "Яблоко", "Манго"];
+                document.getElementById("demo").innerHTML = fruits;
+                function myFunction() {
+                fruits.push("Киви");
+                document.getElementById("demo").innerHTML = fruits;}
+            </code>
+        </div>
+        <div class="block">
+            <h2> English </h2>
+            <p> Pre-intermideate</p> 
+        </div>
+        <div class="block">
+            <h2> Projects</h2>
+            <ul> 
+                <li> <a href="https://github.com/rid98/rsschool-cv/pull/1"> CV#1. Markdown & Git </a> </li>
+                <li> <a href="https://github.com/rid98/rsschool-cv/pull/1"> CV#2. Markdown & Git </a> </li>
+            </ul>
+        </div>
+    </main>
 </body>
+<footer>
+    <nav class="foter__navigations">
+        <a href="https://github.com/rid98"> rid98 </a>
+        <span>2021</span>
+        <a href="https://rs.school/js/"> <img src="img/rs_school_js.svg" alt=""> </a>
+    </nav>
+</footer>
 </html>
